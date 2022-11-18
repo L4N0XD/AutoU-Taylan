@@ -1,0 +1,32 @@
+#login-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  font-weight: bold;
+}
+
+
+.star-rating{
+  color: #bebebe;
+  font-size:2em;
+}
+
+.my-star::before{
+  content:"\002605";
+}
+
+.my-star{
+  font-style: unset !important;
+}
+
+.is-active{
+  color:#fb8900;
+}
+
+.my-star:not(.is-active):hover{
+  color: #fb8900;
+}
